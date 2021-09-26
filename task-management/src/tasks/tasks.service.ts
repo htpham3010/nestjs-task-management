@@ -6,7 +6,7 @@ import { NotFoundError } from 'rxjs';
 import { InjectRepository } from '@nestjs/typeorm';
 import { TasksRepository } from './dto/task.repository.dto';
 import { Task } from './dto/task.entity';
-import { User } from 'src/auth/user.entity';
+import { User } from '../auth/user.entity';
 
 @Injectable()
 export class TasksService {
